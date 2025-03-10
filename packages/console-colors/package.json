@@ -1,0 +1,19 @@
+{
+	"name": "@ondohers/console-colors",
+	"version": "0.1.1",
+	"description": "ANSI colors for your node console",
+	"main": "index.js",
+	"keywords": [
+	  "nodejs",
+	  "ANSI",
+	  "color",
+	  "console",
+	  "colorize",
+	  "ansi",
+	  "terminal"
+	],
+	"author": "Damien Otis",
+	"license": "MIT",
+	"repository": {},
+	"type": "commonjs"
+}

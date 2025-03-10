@@ -1,0 +1,16 @@
+usage: mpublish all|<targets> [options]
+  publishes one or more packages and all of its dependencies. The patch version
+  will be incremented for each package published
+
+targets: one or more module names to publish | "all" to publish all
+
+options:
+  --major, -j    specifies a new major version, patch and minot will be set to 0
+  --minor -m     specifies a new minor version, patch will be set to 0
+  --tag, -t      this string will be added to the patch version, preceded by a
+                 '-' character.
+  --notag -n     will remove the tag from versions
+  --path, -p     path to find packages, defaults to ./packages
+  --dry -d       set to true to output npm steps but not to execute them
+  --write, -w    set false to prevent updating package.json files
+  --verbose, -v  set to true to output more information to the console

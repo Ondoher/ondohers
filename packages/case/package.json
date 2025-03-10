@@ -1,0 +1,12 @@
+{
+  "name": "@ondohers/case",
+  "version": "0.1.3",
+  "description": "String casing functions",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Glenn Anderson",
+  "license": "MIT",
+  "type": "module"
+}

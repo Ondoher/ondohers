@@ -1,0 +1,9 @@
+{
+  "name": "@ondohers/logger",
+  "version": "0.1.2",
+  "description": "Nesting console logger",
+  "main": "index.js",
+  "type": "module",
+  "author": "Glenn Anderson",
+  "license": "MIT"
+}

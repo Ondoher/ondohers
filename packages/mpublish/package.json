@@ -1,0 +1,14 @@
+{
+  "name": "@ondohers/mpublish",
+  "version": "0.1.8",
+  "description": "Publish multiple packages and update version dependencies",
+  "bin": {
+    "mpublish": "bin/mpublish.js"
+  },
+  "type": "module",
+  "author": "Glenn Anderson",
+  "license": "MIT",
+  "dependencies": {
+    "minimist": "^1.2.8"
+  }
+}
